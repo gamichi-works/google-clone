@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo-area {
+    position: relative;
+    display: inline-block;
+    font-size:40px;
+    margin-bottom: 20px;
+}
+.blue {
+    color: rgb(0, 0, 255);
+}
+.red {
+    color: red;
+}
+.yellow {
+    color: yellow;
+}
+.green {
+    color: green;
+}
+.video {
+    color: skyblue;
+    position: absolute;
+    font-size: 20px;
+    right: -60px;
+    bottom: 0;
+}
+input {
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    background-color: #f2f2f2;
+}
